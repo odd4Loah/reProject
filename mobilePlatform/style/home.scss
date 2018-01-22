@@ -1,0 +1,51 @@
+/**
+ * Created by seelee on 2018/1/16.
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  //font-size: 625%;
+  background-color: #e9e9e9;
+}
+
+
+
+main {
+  position: relative;
+}
+
+.home-img {
+  //background: url("../img/ui/home-img.png") no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bgc-img {
+  height: 100vh;
+}
+
+.two-btn {
+
+}
+
+.sign-btn {
+  position: fixed;
+  right: -15px;
+  top: -5px;
+  z-index: 10;
+  font-size: 0.25rem;
+  transform: scale(.5,.5);
+}
+
+.card-btn {
+  position: fixed;
+  right: -15px;
+  top: 70px;
+  z-index: 10;
+  transform: scale(.5,.5);
+}
+

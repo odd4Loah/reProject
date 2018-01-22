@@ -1,0 +1,55 @@
+
+
+<!--学生卡-->
+<div class="card-body col-md-12">
+    <button class="col-md-12 btn btn-toolbar" ui-sref="home">返回</button>
+
+    <div>
+        <!--<input type="text" title="" ng-model="card">-->
+        <!--{{card}}-->
+    </div>
+
+    <!--头像&名字&年级&逆袭豆-->
+    <div class="user-info padding-10 margin-top-10">
+        <div class="col-md-12 text-right">
+            <a ng-click="editInfo()">
+                <img class="edit-info" src="/img/template/edit.png" alt="">
+            </a>
+        </div>
+        <div class="col-md-12 margin-top-10">
+            <div class=" img-show tac">
+                <img class="tac" src="/img/template/2.png" alt="">
+                {{headicon}}
+            </div>
+        </div>
+        <div class="col-md-12 margin-top-10">
+            可达鸭
+            {{name}}
+        </div>
+        <div class="col-md-12 margin-top-10">
+            年级：
+            {{grade}}
+        </div>
+        <div class="col-md-12 margin-top-10">
+            逆袭豆：
+            {{NXbean}}
+        </div>
+    </div>
+
+
+    <!--我的收藏-->
+    <div class="collect col-md-12 margin-top-10">
+        <button class="col-md-12 btn btn-outline-dark" ng-click="collectionInfo()">
+            我的收藏
+        </button>
+    </div>
+
+
+    <!--账号与绑定-->
+    <div class="binding col-md-12 margin-top-10">
+        <button class="col-md-12 btn btn-outline-dark">
+            账号与绑定设置
+        </button>
+    </div>
+</div>
+

@@ -1,0 +1,48 @@
+.blk-border {
+  border: 1px solid #000000; }
+
+.tac {
+  text-align: center; }
+
+.card-body {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 320px;
+  min-width: 320px;
+  border: 1px solid #000000; }
+
+.student-card {
+  background-color: #fae5a7;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 14px; }
+
+.user-info {
+  background-color: #fae5a7;
+  border-radius: 5px;
+  font-size: 14px; }
+
+.edit-info {
+  width: 20px;
+  height: 20px; }
+
+.img-show {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  overflow: hidden; }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.padding-top-10 {
+  padding-top: 10px; }
+
+.padding-10 {
+  padding: 10px; }
+
+.margin-10 {
+  margin: 10px; }
+
+/*# sourceMappingURL=card.css.map */
